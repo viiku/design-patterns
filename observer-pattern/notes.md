@@ -13,3 +13,11 @@ Key Components
     Implements the Subject interface and tracks its state.
 4. Concrete Observers:
     Implement the Observer interface and update their display based on the Subject's state.
+
+***There are a few different ways to implement the Observer Pattern, but most revolve around a class design that includes Subject and Observer interfaces**
+
+#### The Observer Pattern: the Class Diagram
+![alt text](./assests/image.png)
+
+#### Desiging of a weather station
+![alt text](./assests/image-1.png)
