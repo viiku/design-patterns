@@ -16,16 +16,20 @@ public class Main {
 
         scanner.close();
 
-        var s1 = new Sort(new MergeSort());
+        var s1 = new Sort(new BubbleSort());
+        s1.executeSorting(arr);
+        System.out.println("Sorted array: " + java.util.Arrays.toString(arr));
+
+        // s1 = new Sort(new MergeSort());
+        s1.changeSortingMethod(new MergeSort());
         s1.executeSorting(arr);
 
-        s1 = new Sort(new BubbleSort());
+        // s1 = new Sort(new QuickSort());
+        s1.changeSortingMethod(new QuickSort());
         s1.executeSorting(arr);
 
-        s1 = new Sort(new QuickSort());
-        s1.executeSorting(arr);
-
-        s1 = new Sort(new InsertionSort());
+        // s1 = new Sort(new InsertionSort());
+        s1.changeSortingMethod(new InsertionSort());
         s1.executeSorting(arr);
 
         System.out.println("Sorted array: " + java.util.Arrays.toString(arr));

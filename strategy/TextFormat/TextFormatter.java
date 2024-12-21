@@ -5,10 +5,12 @@ public class TextFormatter {
             var textFormatter = new Text(new TitleFormatter());
             textFormatter.runFormat();
 
-            textFormatter = new Text(new LowerCaseFormatter());
+            // textFormatter = new Text(new LowerCaseFormatter());
+            textFormatter.changeFormat(new LowerCaseFormatter());
             textFormatter.runFormat();
 
-            textFormatter = new Text(new UpperCaseFormatter());
+            // textFormatter = new Text(new UpperCaseFormatter());
+            textFormatter.changeFormat(new UpperCaseFormatter());
             textFormatter.runFormat();
     }
 }
