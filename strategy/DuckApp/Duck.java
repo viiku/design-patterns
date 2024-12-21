@@ -21,10 +21,10 @@ public abstract class Duck {
     }
 
     public void setFlyBehavior(FlyBehavior fb) {
-        flybehavior = fb;
+        this.flybehavior = fb;
     }
 
     public void setQuackBehavior(QuackBehavior qb) {
-        quackbehavior = qb;
+        this.quackbehavior = qb;
     }
 }
