@@ -13,3 +13,4 @@ Learning about different kind of design pattern in Java OOPS. Implementing vario
         Program to an interface means designing code to depend on abstract types (interfaces or abstract classes) rather than concrete implementations.
 3. Favor composition over inheritance.
 4. Strive for loosely coupled designs between objects that interact.
+5. Classes should be open for extension, but closed for modification.
