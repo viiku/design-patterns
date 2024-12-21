@@ -1,0 +1,20 @@
+1. Creating a Duck game implementing startegy design.
+2. Dragon uses diferent techniques using startegy pattern to slay 
+
+3. What is the main purpose of the Strategy pattern and when should you use it?"
+        Tests understanding of core pattern benefits
+        Should mention behavior encapsulation and runtime flexibility
+
+4. How does Strategy pattern differ from inheritance for implementing different behaviors?"
+        Tests understanding of composition vs inheritance
+        Should discuss flexibility and avoiding class explosion
+
+5. In this code snippet, a payment system uses different payment methods (Credit Card, PayPal, Bank Transfer). 
+    How would you implement this using the Strategy pattern?"
+        Tests practical application skills
+        Should show interface creation and concrete strategies
+
+6. Implement a TextFormatter class that formats text differently (e.g., uppercase, lowercase, title case) using the Strategy Pattern.
+
+
+7. Design a SortingContext class that can use different sorting algorithms (e.g., bubble sort, quicksort, mergesort) at runtime.
