@@ -1,7 +1,7 @@
 package MultiSorting;
 
 public class Sort {
-    
+
     private SortingContext sortingContext;
 
     public Sort(SortingContext sortingContext) {
@@ -12,7 +12,7 @@ public class Sort {
         this.sortingContext = sortingContext;
     }
 
-    public void executeSorting() {
-        sortingContext.sort();
+    public void executeSorting(int[] arr) {
+        sortingContext.sort(arr);
     }
 }

@@ -1,5 +1,5 @@
 package MultiSorting;
 
 public interface SortingContext {
-    void sort();
+    void sort(int[] arr);
 }
