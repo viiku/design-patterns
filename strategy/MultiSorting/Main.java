@@ -1,6 +1,6 @@
 package MultiSorting;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class Main {
     
@@ -27,8 +27,10 @@ public class Main {
         System.out.println("Sorted array: " + java.util.Arrays.toString(arr));
 
         // s1 = new Sort(new QuickSort());
+        arr = new int[]{5, 2, 9, 1, 5, 6};
         s1.changeSortingMethod(new QuickSort());
         s1.executeSorting(arr);
+        System.out.println("Sorted array: " + java.util.Arrays.toString(arr));
 
         // s1 = new Sort(new InsertionSort());
         s1.changeSortingMethod(new InsertionSort());
