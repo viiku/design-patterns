@@ -1,4 +1,4 @@
-package Sorting;
+package MultiSorting;
 
 public class QuickSort implements SortingContext{
     public void sort() {

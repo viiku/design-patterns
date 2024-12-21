@@ -1,4 +1,4 @@
-package Sorting;
+package MultiSorting;
 
 public class BubbleSort implements SortingContext{
     public void sort() {
