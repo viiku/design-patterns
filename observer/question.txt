@@ -18,3 +18,23 @@ stock options.
 
 4. Stock Market Applications:
     Applications where stock price changes update multiple displays or users.
+
+5. Implementation-Oriented Questions
+    Design and Code:
+
+    5.1 Design an event system where multiple observers subscribe to different types of events (e.g., error events, info events).
+    5.2 Write a program to demonstrate the Observer Pattern for a stock market application where stock prices trigger notifications to investors.
+    
+    Event Queue:
+
+    5.3 How would you modify the Observer Pattern to include an event queue for buffering notifications?
+    
+    Thread Safety:
+
+    5.4 How would you make the Observer Pattern thread-safe in a multi-threaded environment?
+    5.5 What are the challenges of using the Observer Pattern in a concurrent system, and how can they be mitigated?
+    
+    Detachment and Cleanup:
+
+    5.6 How would you ensure that detached observers do not receive notifications in the future?
+    5.7 What strategies can you use to prevent memory leaks caused by observers that are no longer needed?
