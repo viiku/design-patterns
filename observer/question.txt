@@ -38,3 +38,9 @@ stock options.
 
     5.6 How would you ensure that detached observers do not receive notifications in the future?
     5.7 What strategies can you use to prevent memory leaks caused by observers that are no longer needed?
+
+6. In a real-world example, consider a news agency system where the agency (subject) publishes news 
+articles, and multiple news outlets (observers) subscribe to receive updates. Whenever the news agency
+publishes a new article, it automatically notifies all the subscribed news outlets. These outlets can
+then update their platforms (like websites, TV broadcasts, or newspapers) with the latest news. 
+This ensures that all subscribers get the latest information without the news agency needing to know the specifics of each outlet's update process. This decouples the news agency from the subscribers, promoting flexibility and modularity in how updates are handled

@@ -1,0 +1,7 @@
+1. Imagine a coffee shop where you can customize your coffee order. You start with a basic coffee, and
+you can add different ingredients like milk, sugar, whipped cream, and so on. Each addition is like a
+decorator in the Decorator design pattern. The base coffee object can be decorated with additional 
+functionality (flavors, toppings) dynamically. For example, you can start with a plain coffee object,
+then wrap it with a milk decorator, followed by a sugar decorator, and finally a whipped cream decorator.
+Each decorator adds new features or modifies the behavior of the coffee object, similar to how the 
+Decorator pattern works in software design.
