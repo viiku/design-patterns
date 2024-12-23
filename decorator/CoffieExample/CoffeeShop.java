@@ -3,7 +3,7 @@ package decorator.CoffieExample;
 public class CoffeeShop {
     public static void main(String[] args) {
         
-        Coffee coffee = new SampleCoffee();
+        Coffee coffee = new SimpleCoffee();
         System.out.println(coffee.getDescription() + " -> Cost: $" + coffee.getCost());
 
         // Add milk

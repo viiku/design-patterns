@@ -1,6 +1,6 @@
 package decorator.CoffieExample;
 
-public class SampleCoffee implements Coffee{
+public class SimpleCoffee implements Coffee{
     public String getDescription() {
         return "Simple Coffee";
     }
