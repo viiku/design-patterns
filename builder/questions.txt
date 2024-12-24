@@ -1,0 +1,13 @@
+1. Real-world example
+
+The Java Builder pattern is particularly useful in scenarios where object creation involves numerous parameters.
+
+Imagine you are building a customizable sandwich at a deli. The Builder design pattern in this context would involve a 
+SandwichBuilder that allows you to specify each component of the sandwich, such as the type of 
+bread, meat, cheese, vegetables, and condiments. 
+Instead of having to know how to construct the sandwich from scratch, you use the SandwichBuilder to add each desired 
+component step-by-step, ensuring you get exactly the sandwich you want. This separation of construction from the final 
+product representation ensures that the same construction process can yield different types of sandwiches based on the 
+specified components.
+
+2. A restaurant allows customers to customize burgers with various options like buns, patties, sauces, and toppings. The Builder Pattern can be used to construct different types of burgers.
