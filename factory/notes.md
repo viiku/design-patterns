@@ -15,3 +15,9 @@ A common implementation in Java uses a static method to create and return object
 2. Class implementing that interface and it's method
 3. A factory class/method that takes care of different types of object creation
 4. A main method, passing different objects from main method
+
+#### There are also variations of the Factory Pattern:
+
+1. Simple Factory (shown above): A single class handles object creation
+2. Factory Method Pattern: Defines an interface for creating objects, but lets subclasses decide which class to instantiate
+3. Abstract Factory Pattern: Creates families of related objects without specifying their concrete classes
