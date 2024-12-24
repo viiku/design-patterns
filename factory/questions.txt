@@ -1,2 +1,10 @@
 1. Creating different types of shape based on user inputs.
     You want to create different types of shapes (Circle, Rectangle, Square) based on user input.
+
+2. Database connections where you might need different types of connections
+
+3. UI components in different styles (e.g., buttons, windows for different operating systems)
+
+4. File format parsers where you need different parsers for different file types
+
+5. Payment processing systems where you need different payment methods
