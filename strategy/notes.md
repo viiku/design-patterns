@@ -1,4 +1,6 @@
-### When to Use the Strategy Pattern in Java
+### Strategy Pattern
+
+### When to Use the Strategy Pattern in Java?
 Use the Strategy pattern when:
 
 1. You need to use different variants of an algorithm within an object and want to switch algorithms at runtime.
@@ -83,3 +85,16 @@ shelter.letAnimalMakeSound(); // Output: Woof!
 shelter = new AnimalShelter(new Cat());
 shelter.letAnimalMakeSound(); // Output: Meow!
 ```
+
+### Key Concepts:
+
+
+### Structure
+1. Strategy Interface:
+Defines a common interface for all supported algorithms.
+
+2. Concrete Strategies:
+Implement the strategy interface to provide specific behaviors.
+
+3. Context Class:
+Maintains a reference to a strategy object and delegates behavior to it.

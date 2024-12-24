@@ -17,13 +17,23 @@ Learning about different kind of design pattern in Java OOPS. Implementing vario
 
 ### Types of Design Patterns
 #### Creational Patterns
-1. [Abstract Factory](./abstract)
+**Focus on object creation mechanisms, trying to create objects in a manner suitable for the situation.**
+
+Example: Factory Method, Abstract Factory, Singleton.
+Key Idea: Encapsulate object creation to promote flexibility.
+
+1. [Abstract Factory](./factory/abstractfactory/)
 2. [Builder](./builder)
 3. [Factory Method](./factory/)
 4. [Prototype](./prototype)
 5. [Singleton](./singleton/)
 
 #### Structural Patterns
+**Deal with the composition of classes or objects to form larger structures.**
+
+Example: Adapter, Composite, Decorator.
+Key Idea: Simplify relationships between entities or extend functionality dynamically.
+
 1. [Adapter](./adapter)
 2. [Bridge](./bridge)
 3. [Composite](./composite)
@@ -33,6 +43,11 @@ Learning about different kind of design pattern in Java OOPS. Implementing vario
 7. [Proxy](./proxy)
 
 #### Behavioral Patterns
+**Concerned with algorithms and communication between objects.**
+
+Example: Strategy, Observer, Command.
+Key Idea: Define communication and responsibilities between objects.
+
 1. [Command](./command)
 2. [Interpreter](./interpreter)
 3. [Iterator](./iterator)
