@@ -17,28 +17,27 @@ Learning about different kind of design pattern in Java OOPS. Implementing vario
 
 ### Types of Design Patterns
 #### Creational Patterns
-        1. Abstract Factory
-        2. Builder
-        3. Factory Method
-        4. Prototype
-        5. Singleton
+        Abstract Factory
+        Builder
+        Factory Method
+        Prototype
+        Singleton
 
 #### Structural Patterns
-
-        1. Adapter
-        2. Bridge
-        3. Composite
-        4. Decorator
-        5. Facade
-        6. Flyweight
-        7. Proxy
+        Adapter
+        Bridge
+        Composite
+        Decorator
+        Facade
+        Flyweight
+        Proxy
 
 #### Behavioral Patterns
-        1. Command
-        2. Interpreter
-        3. Iterator
-        4. Mediator
-        5. Memento
-        6. Observer
-        7. State
-        8. Strategy
+        Command
+        Interpreter
+        Iterator
+        Mediator
+        Memento
+        Observer
+        State
+        Strategy
