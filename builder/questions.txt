@@ -10,4 +10,20 @@ component step-by-step, ensuring you get exactly the sandwich you want. This sep
 product representation ensures that the same construction process can yield different types of sandwiches based on the 
 specified components.
 
-2. A restaurant allows customers to customize burgers with various options like buns, patties, sauces, and toppings. The Builder Pattern can be used to construct different types of burgers.
+2. A restaurant allows customers to customize burgers with various options like buns, patties, sauces, 
+and toppings. The Builder Pattern can be used to construct different types of burgers.
+
+3. Create a Car Builder:
+
+Create a Car class with attributes like engine, wheels, color, and airbags. 
+Use the Builder Pattern to allow customization of these attributes.
+
+4. Build a Laptop Configuration:
+
+Design a Laptop class with attributes like processor, RAM, storage, graphicsCard, and battery. 
+Use the Builder Pattern to create different configurations of laptops (e.g., gaming, business, budget).
+
+5. Design a Pizza Builder:
+
+Implement a Pizza class with attributes like size, crust, toppings, and sauce. Use the Builder Pattern
+to create custom pizzas.
