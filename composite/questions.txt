@@ -1,0 +1,8 @@
+Real-world example
+
+In a real-world example, consider a company with a complex organizational structure. The company consists of various 
+departments, each of which can contain sub-departments, and ultimately individual employees. The Composite Design Pattern 
+can be used to represent this structure. Each department and employee are treated as a node in a tree structure, where 
+departments can contain other departments or employees, but employees are leaf nodes with no children. This allows the 
+company to perform operations uniformly, such as calculating total salaries or printing the organizational chart, by 
+treating individual employees and entire departments in the same way.
