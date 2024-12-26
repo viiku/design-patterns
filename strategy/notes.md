@@ -109,3 +109,6 @@ b. Context uses this interface to call the algorithm defined by a ConcreteStrate
 
 a. Implement different algorithms while following the Strategy interface
 b. Can be swapped in and out without changing the Context
+
+
+**Strategy design pattern is very helpful when we've multiple objects using same methods due to this chances of code duplication increases.**
