@@ -1,4 +1,5 @@
 ### Strategy Pattern
+***The Strategy Pattern is a behavioral design pattern that enables you to define a family of algorithms, encapsulate each one, and make them interchangeable at runtime.***
 
 ### When to Use the Strategy Pattern in Java?
 Use the Strategy pattern when:
@@ -7,8 +8,6 @@ Use the Strategy pattern when:
 2. There are multiple related classes that differ only in their behavior.
 3. An algorithm uses data that clients shouldn't know about.
 4. A class defines many behaviors and these appear as multiple conditional statements in its operations.
-
-
 
 ### "Program to an interface” really means “Program to a supertype.”
 1. Program to an Interface
@@ -90,11 +89,23 @@ shelter.letAnimalMakeSound(); // Output: Meow!
 
 
 ### Structure
-1. Strategy Interface:
-Defines a common interface for all supported algorithms.
+Key Concepts:
 
-2. Concrete Strategies:
-Implement the strategy interface to provide specific behaviors.
+1. Context
 
-3. Context Class:
-Maintains a reference to a strategy object and delegates behavior to it.
+a. This is the class that contains the varying algorithm
+b. It maintains a reference to a Strategy object
+c. It delegates the algorithm execution to the Strategy object
+d. It can switch between different strategies at runtime
+
+
+2. Strategy Interface
+
+a. Declares the interface common to all supported algorithms
+b. Context uses this interface to call the algorithm defined by a ConcreteStrategy
+
+
+3. Concrete Strategies
+
+a. Implement different algorithms while following the Strategy interface
+b. Can be swapped in and out without changing the Context
