@@ -44,3 +44,5 @@ articles, and multiple news outlets (observers) subscribe to receive updates. Wh
 publishes a new article, it automatically notifies all the subscribed news outlets. These outlets can
 then update their platforms (like websites, TV broadcasts, or newspapers) with the latest news. 
 This ensures that all subscribers get the latest information without the news agency needing to know the specifics of each outlet's update process. This decouples the news agency from the subscribers, promoting flexibility and modularity in how updates are handled
+
+7. Implement notification Design

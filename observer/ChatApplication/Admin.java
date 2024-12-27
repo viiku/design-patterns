@@ -10,11 +10,11 @@ public class Admin implements Subject{
     public void registerObserver(Observer observer) {
         observers.add(observer);
     }
-
+    
     public void removeObserver(Observer observer) {
         observers.remove(observer);
     }
-
+    
     public void notifyObserver() {
         for(Observer observer:observers) {
             observer.update(messageString);
